@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Daniel Matyas Perendi & Tay Guo Hao">
+	<meta name="description" content="Student Union webpage for Computer Science Students">
+	<title>Our Week</title>
+	<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to Student Union</h1>
+			<p>Come and explore the Student Union</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html" id="homebutton">Home</a></li>
+			<li id="menubutton" class="menu"><a class="submenu" href="javascript:void(0)">Menu</a>
+				<div class="menucontent">
+					<a href="areas.html">Areas</a>
+					<a href="ourweek.html">Our Work</a>
+					<a href="eating.html">Eating</a>
+					<a href="contact.html">Contact</a>
+					<a href="accessibility.html">Accessibility</a>
+				</div>    
+			</li>
+		</ul>
+	</nav> 
+
+	<main>
+		<section>
+		</section>
+		<aside>
+		</aside>
+	</main>
+</body>
+<footer>
+		<p>&copy; 2018 Matyas & Tay</p>
+</footer>
+	

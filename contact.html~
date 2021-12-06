@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Matyas Perendi & Tay Guo Hao">
+    <meta name="description" content="Student Union webpage for Computer Science Students">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="head">Welcome to Students' Union Computer Science Facilities Website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="home.html" id="homebutton">Home</a></li>
+        <li id="menubutton" class="menu"><a class="submenu" href="javascript:void(0)">Menu</a>
+            <ul id="dropmenu" class="menucontent">
+                <li><a href="areas.html">Areas</a></li>
+                <li><a href="ourweek.html">Our Week</a></li>
+                <li><a href="eating.html">Eating out</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+            </ul>
+        </li>
+        <li class="content">
+          <a href="areas.html">Areas</a>
+          <a href="ourweek.html">Our Week</a>
+          <a href="eating.html">Eating out</a>
+          <a href="contact.html">Contact</a>
+          <a id="accessibility" href="accessibility.html">Accessibility</a>
+        </li>
+      </ul>
+    </nav>
+
+	<main>
+		<section>
+		  <h1>Contact us</h1>
+		  <p>If you have any problem about the Student Union, feel free to contact us or click the below link.</p>
+		  <table>
+			<tr>
+			  <td></td>
+			  <th>Email</td>
+			  <th>Telephone</td>
+			</tr>
+			<tr>
+			  <th>Daniel Matyas Perendi</th>
+			  <td>dmperendi@sheffield.ac.uk</td>
+			  <td>+36303148890</td>
+			</tr>
+			<tr>
+			  <th>Tay Guo Hao</th>
+			  <td>gtay1@sheffield.ac.uk</td>
+			  <td>+447902082697</td>
+			</tr>  
+			<tr>
+			  <th>Student Union</th>
+			  <td><a href="https://su.sheffield.ac.uk/sheffield-su/contact-us">Click here</a></td>
+			</tr>
+		  </table>
+		  <h2>Address</h2>
+		  <p>Sheffield Students' Union</p>
+		  <p>Western Bank</p>
+		  <p>Sheffield</p>
+		  <p>S10 2TG</p>
+		</section>
+		<aside>
+		  <form action="mailto:dmperendi@sheffield.ac.uk,gtay1@sheffield.ac.uk" method="post" enctype="text/plain">
+			<fieldset>
+			  <legend>Form</legend>			
+		        Name:<br>
+				<input type="text" name="Name"><br>
+				Email:<br>
+				<input type="email" name="Email"><br>
+				Comment:<br>
+				<textarea name="comment" rows="15" cols="50"></textarea><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</fieldset>
+		  </form>
+		</aside>
+	</main>
+</body>
+<footer>
+		<p>&copy; 2018 Matyas & Tay</p>
+</footer>
+	

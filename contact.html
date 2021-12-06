@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Matyas Perendi & Tay Guo Hao">
+    <meta name="description" content="Student Union webpage for Computer Science Students">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="head">Welcome to Students' Union Computer Science Facilities Website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="home.html" id="homebutton">Home</a></li>
+        <li id="menubutton" class="menu"><a class="submenu" href="javascript:void(0)">Menu</a>
+            <ul id="dropmenu" class="menucontent">
+                <li><a href="areas.html">Areas</a></li>
+                <li><a href="ourweek.html">Our Week</a></li>
+                <li><a href="eating.html">Eating</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+            </ul>
+        </li>
+        <li class="content">
+          <a href="areas.html">Areas</a>
+          <a href="ourweek.html">Our Week</a>
+          <a href="eating.html">Eating</a>
+          <a href="contact.html">Contact</a>
+          <a id="accessibility" href="accessibility.html">Accessibility</a>
+        </li>
+      </ul>
+    </nav>
+
+	<main>
+		<section class="sectionbox">
+		  <h1>Contact us</h1>
+		  <p class="address">If you have any question about the Students' Union, feel free to contact us or click the link below.</p>
+		  <table>
+			<tr>
+			  <th></th>
+			  <th class="th">Email</td>
+			  <th class="th">Telephone</td>
+			</tr>
+			<tr>
+			  <th class="th">Daniel Matyas Perendi</th>
+			  <td>dmperendi1@sheffield.ac.uk</td>
+			  <td>+36303148890</td>
+			</tr>
+			<tr>
+			  <th class="th">Tay Guo Hao</th>
+			  <td>gtay1@sheffield.ac.uk</td>
+			  <td>+447902082697</td>
+			</tr>  
+			<tr>
+			  <th class="th">Students' Union</th>
+			  <td><a href="https://su.sheffield.ac.uk/sheffield-su/contact-us" target="_blank">Click here</a></td>
+			</tr>
+		  </table>
+		  <h2>Address:</h2>
+			<p class="address">Sheffield Students' Union <br>
+			Western Bank<br>
+			Sheffield<br>
+			S10 2TG</p>
+		</section>
+		<section  class="sectionbox">
+			<h2>Fill out the form below, and we will get back to you as as soon as we can!</h2>
+		  <form name="myform" action="http://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.pl" method="get">
+			<input type="hidden" name ="recipient" value="dmperendi1@sheffield.ac.uk,gtay1@sheffield.ac.uk">
+			  <p>			
+		        <label for="name">Your name:</label>
+				<input type="text" name="name" id="name" placeholder="Type your name..." maxlength="40" seze="20">
+			  </p>
+			  <p>
+				<label for="email">Your email:</label>
+				<input type="email" name="email" id="email" placeholder="Your email address...">
+			  </p>
+			  <p>
+				<label for="comment">Comment:</label>
+				<textarea name="comment" placeholder="Add your comments here..." rows="15" cols="50"></textarea>
+			  </p>	
+			  <p>	
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			  </p>	
+		  </form>
+		</section>
+	</main>
+	<aside>
+		<h1>Useful links: </h1>
+			<a href="https://www.sheffield.ac.uk/dcs" target="_blank"><img title="Department of Computer Science Website" class="link" alt="Department of Computer Scence logo which is a link to their website" src="Images/dcslogo.jpg"></a>
+			<a href="https://shefcompsoc.uk/" target="_blank"><img title="CompSoc Website" class="link" alt="CompSoc logo which is a link to their website" src="Images/compsoc.jpg"></a>
+			<a href="https://su.sheffield.ac.uk/" target="_blank"><img title="Students' Union Website" class="link" alt="SU logo which is a link to their website" src="Images/sulogo.jpg"></a>
+    </aside>
+</body>
+<footer>
+		<p>&copy; 2018 Matyas & Tay</p>
+</footer>
+	

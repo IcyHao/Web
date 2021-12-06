@@ -1,0 +1,295 @@
+/***************************************************Mobile version******************************************************************/
+html {
+	border: 0;
+	margin:0;
+	padding:0;
+	background-color: rgb(152,204,255);
+}
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+/***************************************************Header******************************************************************/
+header {
+	margin: none;
+	image-orientation: from-image;
+	background-image: url("Images/su.jpg");
+	height: 25vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: left;
+	position: relative;
+	background-size: cover;
+	font-size: 3vw;
+}
+#head{
+	border:0;
+	margin:0;
+	padding:0;
+	-webkit-text-stroke:1px rgb(152,204,255);
+	color: rgb(0,0,153);
+}
+
+/***************************************************Navigation bar******************************************************************/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(0,0,153);
+	font-size: 0;
+	width: 100vw;
+	height:4vh;
+	z-index:1;
+}
+
+#homebutton, #menubutton {
+	text-align:center;
+	border:0;
+	padding:0;
+	width:50vw;
+	height:4vh;
+}
+ul li{
+	display:inline;
+	color: white;
+	background-color: rgb(0,0,153);
+	list-style-type:none;
+	position:relative;
+	z-index: 1;
+
+}
+li  {
+	width: 50vw;
+	height: 4vw;
+	font-size: 3.3vw;
+}
+li a , .submenu {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+
+}
+
+li a:hover, li.menu:hover .submenu, #menubutton:hover {
+	background-color: rgb(152,204,255);
+	color: black;
+}
+.content {
+	display: none;
+}
+/***************************************************Dropdown navigation bar*******************************************************************/
+li.menu {
+	display:inline-block;
+	text-align:center;
+}
+
+.menucontent{
+	display: none;
+	position:absolute;
+	float:right;
+	width:50vw;
+	text-align:center;
+	z-index:1;
+}
+.menucontent a {
+	text-decoration:none;
+	display:block;
+	height: 5vw;
+	font-size: 3.3vw;
+	background-color: rgb(0,0,153);
+}
+
+.menucontent a:hover{
+	background-color: rgb(152,204,255);
+	color: black;
+}
+.menu:focus .menucontent {
+	display: block;
+	border: 1px solid black;
+}
+.menu:hover {
+	height: 5vw;
+	font-size: 3.3vw;
+}
+.menu:hover .menucontent  {
+	display: block;
+	border: 1px solid black;
+}
+
+/***************************************************Main element******************************************************************/
+main {
+	margin:10px 0 0 0;
+	background-color: rgb(152,204,255);
+	z-index:1;
+}
+h1{
+	color: rgb(0,0,153);
+	margin: 0;
+}
+figcaption a{
+	display: block;
+	text-align: center;
+	color: rgb(152,204,255);
+	text-decoration: none;
+	font-size: 3vw;
+}
+figcaption a:hover {
+	background-color: rgb(152,204,255);
+	color: black;
+	border: 1px solid black;
+}
+.sectionbox {
+	background-color: rgb(0,0,153);
+	margin: 20px auto 20px auto;
+}
+.sectionbox a{
+	text-decoration: none;
+	color:rgb(152,204,255);
+}
+.sectionbox a:visited{
+	color:rgb(152,204,255);
+}
+.sectionbox a:hover{
+	background-color:rgb(152,204,255);
+	color:rgb(0,0,153)
+}
+.sectionbox h1 {
+	color: rgb(152,204,255);
+}
+.sectionbox h2, p{
+	color: rgb(152,204,255);
+	padding:10px 10px 10px 10px;
+}
+.th, .sectionbox td {
+	color: rgb(152,204,255);
+	border: 1px solid rgb(152,204,255);;
+}
+
+.pic {
+	display:block;
+	transform:rotate(180deg);
+	width:80%;
+	max-width:500px;
+	height:auto;
+	margin: 10px auto 10px auto;
+
+}
+
+#timetable {
+	width:90%;
+}
+
+/***************************************************Aside******************************************************************/
+.link {
+	display:block;
+	width: 80%;
+	max-width: 300px;
+	height:auto;
+	margin: 15px auto 15px auto;
+}
+
+aside {
+	margin: 30px 0 0 0;
+}
+aside h1 {
+	color: rgb(0,0,153);
+	font-size: 3vw;
+	text-align: center;
+}
+
+/***************************************************Footer******************************************************************/
+footer {
+	position: absolute;
+	width:100%;
+	text-align: center;
+	border-top: 2px solid rgb(128,128,128);
+}
+footer p{
+	color: rgb(0,0,153);
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+/***************************************************Media queries******************************************************************/
+@media screen and (max-width: 600px) {
+	#homebutton, #menubutton {
+		font-size: 4.5vw;
+	}
+	.menucontent a {
+		height: 7vw;
+		font-size: 4.5vw;
+	}
+}
+@media screen and (min-width: 600px) {
+	#head{
+		font-size: 35px;
+	}
+}
+@media screen and (min-width: 760px) {
+/*Navbar*/
+	.content{
+		display:inline;
+		list-style-type: none;
+		text-decoration: none;	
+	}
+	#menubutton {
+		display:none;
+	}
+	.content a{
+			width: 15.3vw;
+			height:5vh;	
+	}
+	#accessibility{
+		width: 20vw;
+	}
+	#homebutton{
+		width: 15vw;
+		height: 5vh;
+	}
+	
+/*Main*/
+	main {
+		float: left;
+		width: 70%;
+		clear: left;
+	}
+/*Aside*/
+	aside {
+		float:right;
+		width: 30%;
+		clear: right;
+	}
+	aside h1 {
+		font-size: 2vw;
+	}
+/*Footer*/
+	footer {
+	position:static;
+	clear:both;
+	}
+}
+@media screen and (min-width: 1000px) {
+	#head{
+		font-size: 50px;
+	}
+	li  {
+	height: 4vw;
+	font-size: 2vw;
+}
+	li a {
+	height:4vh;
+}
+	
+	nav ul {
+		height:4vh;
+	}
+	#accessibility{
+		width: 21.5vw;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.sectionbox p{
+		font-size: 26px;
+	}
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Daniel Matyas Perendi & Tay Guo Hao">
+	<meta name="description" content="Student Union webpage for Computer Science Students">
+	<title>Different Area in the Student Union</title>
+	<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to Student Union</h1>
+			<p>Different areas in the Student Union</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html" id="homebutton">Home</a></li>
+			<li id="menubutton" class="menu"><a class="submenu" href="javascript:void(0)">Menu</a>
+				<div class="menucontent">
+					<a href="areas.html">Areas</a>
+					<a href="ourweek.html">Our Work</a>
+					<a href="eating.html">Eating</a>
+					<a href="contact.html">Contact</a>
+					<a href="accessibility.html">Accessibility</a>
+				</div>    
+			</li>
+		</ul>
+	</nav> 
+
+	<main>
+		<section>
+			<h1>Teaching Spaces</h1>
+			<h2>Support Services</h2>
+				<p>Welcome to SSID</p>
+					<ul>
+						<li>Student Services Information Desk</li>
+						<figure class="pic">
+								<img src="./Images/ssid.jpg" alt"ssid" width="500">
+								<figcaption>SSID</figcaption>
+						<li><a href="https://www.sheffield.ac.uk/ssid">Click here if you have any problem</a></li>
+					</ul>	
+				<p>Student Support & Guidance</p>
+					<ul>
+						<figure class="pic">
+								<img src="./Images/studenthelp.jpg" alt"studentsupport" width="500">
+								<figcaption>Student Support & Guidance</figcaption>
+						<li><a href="https://www.sheffield.ac.uk/sss/ssg">More Information</a></li>
+					</ul>	
+		</section>
+		<aside>
+			<h1>Retail Outlets</h1>
+				<p>Our Shop</p>
+					<ul>
+						<li>Find all kind of food including international food, sandwiches, coffee, snacks and so on & drink and stationery here</li>
+						<figure class="pic">
+								<img src="./Images/shop.jpg" alt"ourshop" width="500">
+								<figcaption>Our Shop</figcaption>
+						<li><a href="https://su.sheffield.ac.uk/eat-drink-shop/our-shop">Lets go</a></li>
+					</ul>	
+				<p>Sheffield Students' Union Store</p>
+					<ul>
+						<li>Selling Clothes, Accessories, Stationery, Gifts</li>
+						<figure class="pic">
+								<img src="./Images/studentstore.jpg" alt"student store" width="500">
+								<figcaption>Sheffield Students' Union Store</figcaption>
+						<li><a href="https://sheffieldstore.com">Online Store</a></li>
+					</ul>
+				<p>Box Office</p>
+					<ul>
+						<li>Book your tickets here</li>
+						<figure class="pic">
+								<img src="./Images/boxoffice.jpg" alt"box office" width="500">
+								<figcaption>Box Office</figcaption>
+						<li><a href="https://su.sheffield.ac.uk/what-s-on/box-office">Check it out</a></li>
+					</ul>	
+		</aside>
+	</main>
+</body>
+<footer>
+		<p>&copy; 2018 Matyas & Tay</p>
+</footer>
+	
